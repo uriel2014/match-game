@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 MatchGame.generateCardValues = function(){
   var sequentialValues = [];
-  for (var value = 1; value < 9; value++){
+  for (var value = 1; value <= 8; value++){
     sequentialValues.push(value);
     sequentialValues.push(value);}
     var cardValues= [];
